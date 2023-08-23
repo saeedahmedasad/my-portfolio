@@ -35,6 +35,11 @@ nav {
 }
 .logo {
   width: 140px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.logo span {
+  color: #ff004f;
 }
 nav ul li {
   list-style: none;
@@ -193,9 +198,29 @@ nav ul li a:hover::after {
   grid-gap: 40px;
   margin-top: 50px;
 }
-.work {
+.work:nth-child(1) {
   border-radius: 10px;
   overflow: hidden;
+  background: url("./images/work-1.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.work:nth-child(2) {
+  border-radius: 10px;
+  overflow: hidden;
+  background: url("./images/work-2.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.work:nth-child(3) {
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: url("./images/work-3.png");
+  background-position: center;
+  background-size: cover;
   position: relative;
 }
 .work img {
