@@ -268,10 +268,10 @@ nav ul li a:hover::after {
 .layer a:hover {
   transform: scale(1.3);
 }
-.work:hover .layer {
+.work .layer {
   height: 100%;
 }
-.work:hover img {
+.work img {
   transform: scale(1.5);
 }
 
