@@ -236,7 +236,7 @@ nav ul li a:hover::after {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  background: linear-gradient(to bottom, #262626bc, #080808);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -248,7 +248,7 @@ nav ul li a:hover::after {
   flex-direction: column;
   padding: 0 40px;
   font-size: 14px;
-  border-radius: 10px;
+  border-radius: 9px;
   transition: 0.5s;
 }
 .layer h3 {
